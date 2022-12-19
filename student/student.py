@@ -6,3 +6,4 @@ class(models.Model):
     name = fields.Char('Name')
     email = fields.Char("Email")
     phone = fields.Char("Phone Number")
+    country = fields.Char("Country")
