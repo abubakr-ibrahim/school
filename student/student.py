@@ -4,4 +4,5 @@ class(models.Model):
     _name="student.student"
     
     name = fields.Char('Name')
-    parent_name = fields.Char("Parent Name")
+    email = fields.Char("Email")
+    phone = fields.Char("Phone Number")
